@@ -18,7 +18,7 @@ define( 'AADSSO_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'AADSSO_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 defined( 'AADSSO_DEBUG' ) or define( 'AADSSO_DEBUG', FALSE );
-defined( 'AADSSO_DEBUG_LEVEL' ) or define( 'AADSSO_DEBUG_LEVEL', 0 );
+defined( 'AADSSO_DEBUG_LEVEL' ) or define( 'AADSSO_DEBUG_LEVEL', 1 );
 
 // Proxy to be used for calls, should be useful for tracing with Fiddler
 // BUGBUG: Doesn't actually work, at least not with WP running on WAMP stack
